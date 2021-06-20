@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.emu.search"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "microservice",
+    "baseName": "searchingService",
+    "packageName": "org.emu.search",
+    "packageFolder": "org/emu/search",
+    "serverPort": "8081",
+    "authenticationType": "oauth2",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "consul",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OWM0NGJjZDUzZjBkMTc0M2YzMWM5Y2Y0MjhiY2U0MGU5ODA5ZDlkZTNhMTQxZDc0MzM3OWMxYjg2ZGQxMjMyMDM4YTViNmE4MDE1Y2RiMWM5ODcwZDBmMzk2ZmMwNWI4YmU3ZDc1NTVlMjU1MGI4NzM5MTg1Zjk0NGQwMzhhN2I=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1622635471716,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-kafka",
+        "version": "1.0.1"
+      }
+    ],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
